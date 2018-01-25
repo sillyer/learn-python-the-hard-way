@@ -41,6 +41,8 @@ age = raw_input("Your age? \n")  # 提示符
 from sys import argv
 script, first, second, third = argv #运行程序时 需要输入三个参数
 
-# ex
+# [ex14]
 
 ```
+[ex14]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex14.py 
+
