@@ -45,7 +45,7 @@ script, first, second, third = argv #运行程序时 需要输入三个参数
 
 ```
 [ex15]
-[ex15]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex15.py 
+
 ```
 # pydoc open 查看open函数相关文档
 txt = open(filename) # filename 要读入的文件名称 
@@ -53,8 +53,7 @@ print txt.read()  # .read() 读入文件内容
 ```
 [ex16]
 [ex17]
-[ex16]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex16.py
-[ex17]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex17.py
+
 ```
 input = open(filename_in, 'r')  # 'w'表示写入模式，会清空文档，'r'读模式， 'a'=append 追加模式 默认为r
 target = input.read()
@@ -69,4 +68,8 @@ exists(filename_out)  # 验证filename_out这个文件是否存在？ 存在true
 
 ```
 [ex18 函数]
+
+[ex15]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex15.py 
+[ex16]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex16.py
+[ex17]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex17.py
 [ex18 函数]:https://github.com/sillyer/learn-python-the-hard-way/blob/master/ex18.py
