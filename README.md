@@ -46,15 +46,15 @@ script, first, second, third = argv #运行程序时 需要输入三个参数
 ```
 [ex15]
 
-```
+```python
 # pydoc open 查看open函数相关文档
 txt = open(filename) # filename 要读入的文件名称 
 print txt.read()  # .read() 读入文件内容
 ```
-[ex16]
+[ex16]  
 [ex17]
 
-```
+```python
 input = open(filename_in, 'r')  # 'w'表示写入模式，会清空文档，'r'读模式， 'a'=append 追加模式 默认为r
 target = input.read()
 oneline = input.readline()
